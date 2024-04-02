@@ -1,3 +1,3 @@
 # GIS_SoSe24 
 ## GIS Projekt
-Mein Projekt soll eine Webseite sein in der man eine Einkaufsliste erstellen kann. Diese Einkaufsliste kann alles beinhalten, jedoch sind non-food Produkte praktischer, da man kann zu den Produkten jeweils noch den Preis notieren und ein Bild hinzufügen kann. Die Webseite soll zwei Unterseiten beinhalten. Die erste Unterseite zeigt einem die Einkaufsliste an und in der zweiten kann man dann ein neues Produkt hinzufügen.
+Mein Projekt soll eine Webseite sein in der man eine Einkaufsliste erstellen kann. Diese Einkaufsliste kann alles beinhalten, jedoch sind non-food Produkte praktischer, da man zu den Produkten jeweils noch den Preis dazu notieren und ein Bild hinzufügen kann. Die Webseite soll zwei Unterseiten beinhalten. Die erste Unterseite zeigt einem die Einkaufsliste an und in der zweiten kann man dann ein neues Produkt hinzufügen.
