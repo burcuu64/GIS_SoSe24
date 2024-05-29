@@ -13,7 +13,7 @@ header {
 }
 
 .back-link {
-    color: #fff; 
+    color: #ff69b4; 
     text-decoration: none;
     font-size: 18px; 
     margin-right: 20px; 
@@ -24,7 +24,7 @@ h1, h2 {
     text-align: center; 
 }
 
-.section {
+section {
     margin-bottom: 40px;
     text-align: center; 
 }
@@ -33,7 +33,7 @@ h1, h2 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    display: flex; /* Ändert das Layout zu flexibel */
+    display: flex; 
     justify-content: center; /* Zentriert die Elemente horizontal */
 }
 
@@ -58,6 +58,7 @@ h1, h2 {
     font-size: 30px;
     margin-right: 10px; /* Verringert den Abstand zwischen Emoji und Text */
 }
+
 
 .add-product-box {
     border: 1px solid #ccc; /* Fügt einen Rahmen um das Kästchen hinzu */
@@ -104,11 +105,16 @@ h1, h2 {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px; /* Hier wird die Padding angepasst */
     box-shadow: 0 4px 8px #0000001a;
-    width: 600px; 
-    max-width: 100%; 
+    width: 300px; /* Hier wird die Breite angepasst */
+    max-width: 100%;
+    margin: 0 auto; /* Automatische Seitenzentrierung */
+    margin-right: 20px; /* Abstand zwischen den Produktkästchen */
+    position: relative; /* oder absolute oder fixed, abhängig von Ihrem Layout */
 }
+
+
 
 .product-box strong {
     color: #ff69b4;
@@ -134,8 +140,13 @@ h1, h2 {
     border-radius: 5px; 
     cursor: pointer; 
     transition: background-color 0.3s ease; 
+    position: absolute;
+    bottom: 10px;
 }
 
 .button_löschen:hover {
     background-color: #ff8acc; 
 }
+
+
+
