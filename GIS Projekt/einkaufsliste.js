@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         productContainer.appendChild(productBox);
     });
 
+    
     // Löschen-Button-Ereignis
     document.querySelectorAll('.button_löschen').forEach(button => {
         button.addEventListener('click', function() {
